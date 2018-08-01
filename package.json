@@ -67,7 +67,8 @@
         "access": "public"
     },
     "files": [
-        "dist",
+        "dist/*.js",
+        "dist/*.js.map",
         "index.d.ts"
     ]
 }
