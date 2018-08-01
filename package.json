@@ -75,6 +75,22 @@
                     "index.d.ts"
                 ]
             }
-        ]
+        ],
+        "analyzeCommits": {
+            "releaseRules": [
+                {
+                    "type": "prepatch",
+                    "release": "prepatch"
+                },
+                {
+                    "type": "refactor",
+                    "release": "patch"
+                },
+                {
+                    "type": "style",
+                    "release": "patch"
+                }
+            ]
+        }
     }
 }
