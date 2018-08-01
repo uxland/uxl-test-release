@@ -1,0 +1,25 @@
+{
+  "name": "@uxland/uxl-test-release",
+  "version": "0.0.0-development",
+  "description": "test auto release",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uxland/uxl-test-release.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uxland/uxl-test-release/issues"
+  },
+  "homepage": "https://github.com/uxland/uxl-test-release#readme",
+  "devDependencies": {
+    "travis-deploy-once": "^5.0.1",
+    "semantic-release": "^15.9.3"
+  }
+}
