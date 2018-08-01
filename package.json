@@ -75,22 +75,6 @@
                     "index.d.ts"
                 ]
             }
-        ],
-        "analyzeCommits": {
-            "releaseRules": [
-                {
-                    "type": "prepatch",
-                    "release": "prepatch"
-                },
-                {
-                    "type": "preminor",
-                    "release": "preminor"
-                },
-                {
-                    "type": "prerelease",
-                    "release": "prerelease"
-                }
-            ]
-        }
+        ]
     }
 }
