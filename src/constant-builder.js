@@ -1,0 +1,2 @@
+export const constantBuilder = (prefix, suffix, separator = ':') => (name) => suffix ? `${prefix}${separator}${name}${separator}${suffix}` : `${prefix}${separator}${name}`;
+//# sourceMappingURL=constant-builder.js.map
