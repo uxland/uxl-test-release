@@ -83,12 +83,12 @@
                     "release": "prepatch"
                 },
                 {
-                    "type": "refactor",
-                    "release": "patch"
+                    "type": "preminor",
+                    "release": "preminor"
                 },
                 {
-                    "type": "style",
-                    "release": "patch"
+                    "type": "prerelease",
+                    "release": "prerelease"
                 }
             ]
         }
