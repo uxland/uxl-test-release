@@ -67,6 +67,6 @@
         "access": "public"
     },
     "files": [
-        "dist"
+        "index.d.ts"
     ]
 }
