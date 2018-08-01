@@ -67,6 +67,7 @@
         "access": "public"
     },
     "files": [
-        "index.d.ts"
+        "index.d.ts",
+        "dist/constant-builder.js"
     ]
 }
