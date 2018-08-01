@@ -66,8 +66,15 @@
     "publishConfig": {
         "access": "public"
     },
-    "files": [
-        "index.d.ts",
-        "dist/constant-builder.js"
-    ]
+    "release": {
+        "publish": [
+            {
+                "path": "@semantic-release/npm",
+                "assets": [
+                    "dist/**/*.{js,js.map}",
+                    "index.d.ts"
+                ]
+            }
+        ]
+    }
 }
